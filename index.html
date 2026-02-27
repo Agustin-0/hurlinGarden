@@ -1,161 +1,273 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>hurlinGarden</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <!-- SEO básico -->
-<title>HurlinGarden | Jardinería Profesional en Hurlingham</title>
-<meta name="description" content="HurlinGarden ofrece mantenimiento de jardines, poda, paisajismo y sistemas de riego en Hurlingham y alrededores. Presupuestos sin cargo.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hurlinGarden</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- SEO básico -->
+    <title>HurlinGarden | Jardinería Profesional en Hurlingham</title>
+    <meta
+      name="description"
+      content="HurlinGarden ofrece mantenimiento de jardines, poda, paisajismo y sistemas de riego en Hurlingham y alrededores. Presupuestos sin cargo."
+    />
 
-<!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="HurlinGarden | Transformamos espacios en vida natural">
-<meta property="og:description" content="Especialistas en jardinería profesional en Hurlingham. Diseño, mantenimiento y cuidado integral de jardines. Consultanos hoy mismo.">
-<meta property="og:image" content="https://Agustin-0.github.io/hurlinGarden/img/preview.webp">
-<meta property="og:image:alt" content="Una imagen de jadineria de HurlinGarden">
-<meta property="og:url" content="https://github.com/Agustin-0/hurlinGarden">
-<meta property="og:site_name" content="HurlinGarden">
+    <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="HurlinGarden | Transformamos espacios en vida natural"/>
+    <meta property="og:description" content="Especialistas en jardinería profesional en Hurlingham. Diseño, mantenimiento y cuidado integral de jardines. Consultanos hoy mismo."/>
+    <meta property="og:image" content="https://Agustin-0.github.io/hurlinGarden/assets/img/preview.webp"/>
+    <meta property="og:image:alt" content="Una imagen de jadineria de HurlinGarden"/>
+    <meta property="og:url" content="https://agustin-0.github.io/hurlinGarden/" />
+    <meta property="og:site_name" content="HurlinGarden" />
 
-<!-- Mejora compatibilidad en previews -->
-<meta name="twitter:card" content="summary_large_image">
+    <!-- Mejora compatibilidad en previews -->
+    <meta name="twitter:card" content="summary_large_image" />
 
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
 
-    /* Animación hoja menú */
-    .leaf path {
-      stroke-dasharray: 300;
-      stroke-dashoffset: 300;
-      transition: stroke-dashoffset 0.6s ease;
-    }
+      /* Animación hoja menú */
+      .leaf path {
+        stroke-dasharray: 300;
+        stroke-dashoffset: 300;
+        transition: stroke-dashoffset 0.6s ease;
+      }
 
-    .nav-item:hover .leaf path {
-      stroke-dashoffset: 0;
-    }
+      .nav-item:hover .leaf path {
+        stroke-dashoffset: 0;
+      }
 
-    /* Fondo hero animado */
-    .hero-bg {
-      background: radial-gradient(circle at 20% 30%, #166534 0%, #052e16 60%);
-    }
-  </style>
-</head>
+      /* Fondo hero animado */
+      .hero-bg {
+        background: radial-gradient(circle at 20% 30%, #166534 0%, #052e16 60%);
+      }
+    </style>
+  </head>
 
-<body class="bg-green-50 text-gray-800">
+  <body class="bg-green-50 text-gray-800">
     <header>
-        <nav class="fixed w-full bg-black/40 backdrop-blur-md text-white z-50">
-    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
-      <h1 class="text-xl font-bold tracking-widest">HurlinGarden</h1>
+      <nav class="fixed w-full bg-black/40 backdrop-blur-md text-white z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+          <h1 class="text-xl font-bold tracking-widest">HurlinGarden</h1>
 
-      <div class="hidden md:flex gap-8 text-sm uppercase tracking-wider">
-        
-        <a href="#quienes" class="nav-item flex items-center gap-2">
-          <svg class="leaf w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
-            <path d="M5 21C5 10 19 3 19 3C19 3 21 17 10 19C7 20 5 21 5 21Z"/>
-          </svg>
-          Quiénes Somos
-        </a>
+          <div class="hidden md:flex gap-8 text-sm uppercase tracking-wider">
+            <a href="#quienes" class="nav-item flex items-center gap-2">
+              <svg
+                class="leaf w-5 h-5"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                stroke-width="2"
+              >
+                <path
+                  d="M5 21C5 10 19 3 19 3C19 3 21 17 10 19C7 20 5 21 5 21Z"
+                />
+              </svg>
+              Quiénes Somos
+            </a>
 
-        <a href="#trabajos" class="nav-item flex items-center gap-2">
-          <svg class="leaf w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
-            <path d="M5 21C5 10 19 3 19 3C19 3 21 17 10 19C7 20 5 21 5 21Z"/>
-          </svg>
-          Trabajos
-        </a>
+            <a href="#trabajos" class="nav-item flex items-center gap-2">
+              <svg
+                class="leaf w-5 h-5"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                stroke-width="2"
+              >
+                <path
+                  d="M5 21C5 10 19 3 19 3C19 3 21 17 10 19C7 20 5 21 5 21Z"
+                />
+              </svg>
+              Trabajos
+            </a>
 
-        <a href="#contacto" class="nav-item flex items-center gap-2">
-          <svg class="leaf w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
-            <path d="M5 21C5 10 19 3 19 3C19 3 21 17 10 19C7 20 5 21 5 21Z"/>
-          </svg>
-          Contacto
-        </a>
-
-      </div>
-    </div>
-  </nav>
+            <a href="#contacto" class="nav-item flex items-center gap-2">
+              <svg
+                class="leaf w-5 h-5"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                stroke-width="2"
+              >
+                <path
+                  d="M5 21C5 10 19 3 19 3C19 3 21 17 10 19C7 20 5 21 5 21Z"
+                />
+              </svg>
+              Contacto
+            </a>
+          </div>
+        </div>
+      </nav>
     </header>
-  <!-- HERO -->
-  <section class="hero-bg h-screen flex items-center justify-center text-center text-white px-6">
-    <div>
-      <h2 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
-        Transformamos Espacios <br>
-        en Vida Natural
-      </h2>
-      <p class="text-lg md:text-xl mb-8 text-green-200">
-        Diseño, mantenimiento y pasión por cada jardín.
-      </p>
-      <a href="https://api.whatsapp.com/send?phone=+549113477-4499&text=Hola! Vi su pagina web y quería solicitar el presupuesto para el trabajo de..." class="bg-green-500 hover:bg-green-400 px-8 py-4 rounded-full text-black font-semibold shadow-xl transition duration-300">
-        Solicitar Presupuesto
+    <main>
+      <!-- HERO -->
+      <section
+        class="hero-bg h-screen flex items-center justify-center text-center text-white px-6"
+      >
+        <div>
+          <h2 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+            Transformamos Espacios <br />
+            en Vida Natural
+          </h2>
+          <p class="text-lg md:text-xl mb-8 text-green-200">
+            Diseño, mantenimiento y pasión por cada jardín.
+          </p>
+          <a
+            href="https://api.whatsapp.com/send?phone=+549113477-4499&text=Hola! Vi su pagina web y quería solicitar el presupuesto para el trabajo de..."
+            class="bg-green-500 hover:bg-green-400 px-8 py-4 rounded-full text-black font-semibold shadow-xl transition duration-300"
+          >
+            Solicitar Presupuesto
+          </a>
+        </div>
+      </section>
+
+      <!-- QUIENES SOMOS -->
+      <section id="quienes" class="py-24 px-6 bg-white">
+        <div class="max-w-5xl mx-auto text-center">
+          <h3 class="text-4xl font-bold text-green-700 mb-8">Quiénes Somos</h3>
+          <p class="text-lg leading-relaxed text-gray-600">
+            Somos especialistas en jardinería profesional con años de
+            experiencia. Nos enfocamos en crear espacios verdes armónicos,
+            saludables y duraderos. Cada proyecto lo trabajamos como si fuera
+            nuestro propio jardín.
+          </p>
+          <!-- <div class="flex justify-center gap-6 pt-12">
+            <a href="" class="bg-green-500 text-gray-100 hover:text-gray-900 hover:scale-125 transition duration-300 p-2 h-12 w-12 flex items-center justify-center rounded-md">
+              <svg width="28px" height="28px">
+                <use href="./assets/sprite.svg#whatsapp"></use>
+              </svg>
+            </a>
+
+            <a href="" class="bg-blue-600 text-gray-100 hover:text-gray-900 hover:scale-125 transition duration-300 p-2 h-12 w-12 flex items-center justify-center rounded-md">
+              <svg width="28px" height="28px">
+                <use href="./assets/sprite.svg#facebook-f"></use>
+              </svg>
+            </a>
+          </div> -->
+          
+          
+        </div>
+      </section>
+
+      <!-- TRABAJOS -->
+      <section id="trabajos" class="py-24 px-6 bg-green-100">
+        <div class="max-w-6xl mx-auto text-center">
+          <h3 class="text-4xl font-bold text-green-800 mb-12">
+            Nuestros Trabajos
+          </h3>
+
+          <div class="grid md:grid-cols-3 gap-8">
+            <div
+              class="bg-white rounded-2xl shadow-lg p-6 hover:scale-105 transition duration-300"
+            >
+              <h4 class="font-bold text-xl mb-3 text-green-700">
+                Mantenimiento
+              </h4>
+              <p class="text-gray-600">
+                Corte de césped, poda y cuidado integral.
+              </p>
+            </div>
+
+            <div
+              class="bg-white rounded-2xl shadow-lg p-6 hover:scale-105 transition duration-300"
+            >
+              <h4 class="font-bold text-xl mb-3 text-green-700">Paisajismo</h4>
+              <p class="text-gray-600">
+                Diseño de jardines modernos y funcionales.
+              </p>
+            </div>
+
+            <div
+              class="bg-white rounded-2xl shadow-lg p-6 hover:scale-105 transition duration-300"
+            >
+              <h4 class="font-bold text-xl mb-3 text-green-700">
+                Limpieza de terrenos
+              </h4>
+              <p class="text-gray-600">Instalación eficiente y automatizada.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SEGURIDAD Y RESPALDO -->
+      <section class="py-24 px-6 bg-white">
+        <div class="max-w-6xl mx-auto text-center">
+          <h3 class="text-4xl font-bold text-green-700 mb-12">
+            Seguridad y Respaldo Profesional
+          </h3>
+
+          <div class="flex flex-col gap-8 text-center">
+
+            <div class="flex flex-col sm:flex-row gap-8">
+              <div class="bg-green-50 p-8 rounded-2xl shadow-md">
+                <h4 class="text-xl font-bold mb-4 text-green-800">
+                  Personal Registrado
+                </h4>
+                <p class="text-gray-600 leading-relaxed">
+                  Nuestros jardineros trabajan en relación de dependencia y
+                  cuentan con cobertura de ART y seguro correspondiente,
+                  garantizando tranquilidad para nuestros clientes.
+                </p>
+              </div>
+  
+              <div class="bg-green-50 p-8 rounded-2xl shadow-md">
+                <h4 class="text-xl font-bold mb-4 text-green-800">
+                  Equipamiento Completo
+                </h4>
+                <p class="text-gray-600 leading-relaxed">
+                  Todo nuestro equipo dispone de herramientas profesionales y
+                  elementos de protección personal adecuados para realizar cada
+                  tarea de forma segura y eficiente.
+                </p>
+              </div>
+            </div>
+
+
+            <div class="bg-green-50 p-8 md:col-start-2 md:col-span-6 rounded-2xl shadow-md grid-cols-subgrid">
+              <h4 class="text-xl font-bold mb-4 text-green-800">
+                Trabajo Seguro y Responsable
+              </h4>
+              <p class="text-gray-600 leading-relaxed">
+                Cumplimos con la normativa vigente y operamos bajo estándares de
+                seguridad que minimizan riesgos y aseguran un servicio confiable
+                en cada visita.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTO -->
+      <section id="contacto" class="py-24 px-6 bg-white">
+        <div class="max-w-4xl mx-auto text-center">
+          <h3 class="text-4xl font-bold text-green-700 mb-8">Contactanos</h3>
+          <p class="mb-8 text-gray-600">
+            Trabajamos en Hurlingham y alrededores. Consultanos sin compromiso.
+          </p>
+
+          <a
+            href="https://api.whatsapp.com/send?phone=+549113477-4499&text=Hola! Vi su pagina web y quería más información sobre..."
+            class="bg-green-600 hover:bg-green-500 text-white px-10 py-4 rounded-full text-lg shadow-lg transition duration-300"
+          >
+            Enviar WhatsApp
+          </a>
+        </div>
+      </section>
+
+      <!-- BOTON FLOTANTE -->
+      <a
+        href="https://api.whatsapp.com/send?phone=+549113477-4499&text=Hola! Vi su pagina web y quería más información sobre..."
+        class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-400 text-black p-4 rounded-full shadow-2xl transition duration-300"
+      >
+        💬
       </a>
-    </div>
-  </section>
+    </main>
 
-  <!-- QUIENES SOMOS -->
-  <section id="quienes" class="py-24 px-6 bg-white">
-    <div class="max-w-5xl mx-auto text-center">
-      <h3 class="text-4xl font-bold text-green-700 mb-8">Quiénes Somos</h3>
-      <p class="text-lg leading-relaxed text-gray-600">
-        Somos especialistas en jardinería profesional con años de experiencia.
-        Nos enfocamos en crear espacios verdes armónicos, saludables y duraderos.
-        Cada proyecto lo trabajamos como si fuera nuestro propio jardín.
-      </p>
-    </div>
-  </section>
-
-  <!-- TRABAJOS -->
-  <section id="trabajos" class="py-24 px-6 bg-green-100">
-    <div class="max-w-6xl mx-auto text-center">
-      <h3 class="text-4xl font-bold text-green-800 mb-12">Nuestros Trabajos</h3>
-
-      <div class="grid md:grid-cols-3 gap-8">
-
-        <div class="bg-white rounded-2xl shadow-lg p-6 hover:scale-105 transition duration-300">
-          <h4 class="font-bold text-xl mb-3 text-green-700">Mantenimiento</h4>
-          <p class="text-gray-600">Corte de césped, poda y cuidado integral.</p>
-        </div>
-
-        <div class="bg-white rounded-2xl shadow-lg p-6 hover:scale-105 transition duration-300">
-          <h4 class="font-bold text-xl mb-3 text-green-700">Paisajismo</h4>
-          <p class="text-gray-600">Diseño de jardines modernos y funcionales.</p>
-        </div>
-
-        <div class="bg-white rounded-2xl shadow-lg p-6 hover:scale-105 transition duration-300">
-          <h4 class="font-bold text-xl mb-3 text-green-700">Sistemas de Riego</h4>
-          <p class="text-gray-600">Instalación eficiente y automatizada.</p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACTO -->
-  <section id="contacto" class="py-24 px-6 bg-white">
-    <div class="max-w-4xl mx-auto text-center">
-      <h3 class="text-4xl font-bold text-green-700 mb-8">Contactanos</h3>
-      <p class="mb-8 text-gray-600">
-        Trabajamos en Hurlingham y alrededores. Consultanos sin compromiso.
-      </p>
-
-      <a href="https://api.whatsapp.com/send?phone=+549113477-4499&text=Hola! Vi su pagina web y quería más información sobre..."
-         class="bg-green-600 hover:bg-green-500 text-white px-10 py-4 rounded-full text-lg shadow-lg transition duration-300">
-        Enviar WhatsApp
-      </a>
-    </div>
-  </section>
-
-  <!-- BOTON FLOTANTE -->
-  <a href="https://wa.me/549XXXXXXXXXX"
-     class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-400 text-black p-4 rounded-full shadow-2xl transition duration-300">
-     💬
-  </a>
-
-  <!-- FOOTER -->
-  <footer class="bg-green-900 text-green-200 text-center p-6">
-    © 2026 hurlinGarden Jardinería — Todos los derechos reservados
-  </footer>
-
-</body>
+    <!-- FOOTER -->
+    <footer class="bg-green-900 text-green-200 text-center p-6">
+      © 2026 hurlinGarden Jardinería — Todos los derechos reservados
+    </footer>
+  </body>
 </html>
